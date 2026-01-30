@@ -30,6 +30,13 @@ a {
     color: black;
 }
 
+p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/* NAVIGATION */
+
 .nav {
     display: flex;
     justify-content: space-between;
@@ -38,7 +45,7 @@ a {
 
 .nav__container {
     width: 100%;
-    max-width: 1400px;
+    max-width: 1200px;
     padding: 24px 24px;
     display: flex;
     justify-content: space-between;
@@ -99,4 +106,85 @@ button {
     font-weight: bold;
     border-radius: 50px;
     border: none;
+}
+
+/*HEADER */
+
+.container {
+    padding: 96px 0;
+}
+
+.header__row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 24px;
+}
+
+.header__description {
+    width: 40%;
+}
+
+.header__description--para {
+    margin: 32px 0;
+}
+
+.header__email {
+    width: 100%;
+    max-width: 448px;
+    height: 68px;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header__email--input {
+    width: 100%;
+    border-radius: 500px;
+    border: 2px solid rgb(229, 231, 235);
+    padding: 20px 192px 20px 32px;
+    color: rgb(36, 62, 99);
+    font-size: 16px;
+    font-weight: 500;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    transition: border-color 300ms;
+}
+
+.header__email--btn {
+    z-index: 2;
+    margin: 8px;
+    height: calc(100% - 16px);
+    border-radius: 500px;
+    width: 160px;
+    border: none;
+    background-color: #6415ff;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    transition: all 300ms ease;
+}
+
+.header__customers--title {
+    margin-top: 80px;
+    color: #a0aec0;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.header__customers {
+    margin: 16px;
+    padding-right: 128px;
+    opacity: 0.5;
+}
+
+img {
+    width: 100%;
+}
+
+.header__img--wrapper {
+    width: calc(100% - 40%);
 }
