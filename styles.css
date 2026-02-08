@@ -893,4 +893,88 @@ img {
 
 /* START */
 
+section {
+    padding: 0 32px;
+}
 
+.container {
+    padding: 96px 0;
+}
+
+.row {
+    position: relative;
+    overflow: hidden;
+}
+
+.start__container {
+    padding: 96px 0;
+    width: 100%;
+    background-color: rgb(100, 21, 255);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.start__row {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1024px;
+    padding: 0 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.start__title {
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.5;
+    z-index: 2;
+    width: 50%;
+}
+
+.start__buttons {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+}
+
+.start__button1 {
+    background-color: #f56565;
+    padding: 20px 40px;
+    border-radius: 500px;
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+    line-height: 1.5;
+    margin: 1px;
+    z-index: 2;
+    border: none;
+    margin-right: 32px;
+    transition: all 300ms ease;
+}
+
+.start__button {
+    background-color: #6415ff;
+    padding: 20px 40px;
+    border-radius: 500px;
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+    line-height: 1.5;
+    margin: 1px;
+    z-index: 2;
+    border: 1px solid rgb(160, 174, 192);
+    transition: all 300ms ease;
+}
+
+.start__button:hover {
+    background-color: white;
+    color: rgba(100, 21, 255)
+}
+
+.start__button1:hover {
+    background-color: rgba(229, 62, 62);
+}
